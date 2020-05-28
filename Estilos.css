@@ -217,7 +217,7 @@ figure{
 }
 .event-list {
 
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
 
 }
@@ -292,27 +292,27 @@ figure{
 
 .social-link.twitter{
      
-    background-image: url('../images/twitter.svg');
+    background-image: url('/Users/gianc/Gianfc/images/twitter.svg');
     
 
 }
 
 .social-link.facebook{
      
-    background-image: url('../images/facebook.svg');
+    background-image: url('/Users/gianc/Gianfc/images/facebook.svg');
     
     
 }
 
 .social-link.github{
      
-    background-image: url('../images/github.svg');
+    background-image: url('/Users/gianc/Gianfc/images/github.svg');
    
 }
 
 .social-link.instagram{
      
-    background-image: url('../images/instagram.svg');
+    background-image: url('/Users/gianc/Gianfc/images/instagram.svg');
    
 }
 
@@ -322,7 +322,7 @@ figure{
     border-style: solid;
     border-radius: 5px;
     padding: 10px 20px 10px 25px;
-    background-image: url('../images/envelope.svg');
+    background-image: url('/Users/gianc/Gianfc/images/envelope.svg');
     background-size: 15px 15px;
     background-repeat:no-repeat ;
     background-position-y:center ;
@@ -352,7 +352,19 @@ figure{
     justify-content: inherit;
     align-items: inherit;
     height: inherit;
-    flex-wrap: inherit;
+    
+
+}
+.container2 {
+    max-width: 1000px;
+    display: inherit;
+    margin: 0 auto;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: wrap;
+   
+    
 
 }
 .burger-button {
